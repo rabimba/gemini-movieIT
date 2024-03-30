@@ -1,5 +1,3 @@
-# Plot Persuit
-
 import streamlit as st
 import google.generativeai as genai
 import PIL.Image
@@ -52,7 +50,7 @@ def main():
         st.write("Please insert the Movie Name (with release year if possible) below or upload an image of movie poster and we'll provide you with information about the movie/tv series. Happy Binging!!!")
         
         # Set Google API key
-        genai.configure(api_key = "AIzaSyDY78QerX5e30_waM56LSVsVSMIKiOze9U")
+        genai.configure(api_key = "AIzaSyDzjiNgzTf95qF5gA7F76MCpcVDUI7JVcA")
 
         model = genai.GenerativeModel("gemini-pro")
 

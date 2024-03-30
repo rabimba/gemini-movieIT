@@ -1,0 +1,3 @@
+protobuf
+streamlit
+google-generativeai
